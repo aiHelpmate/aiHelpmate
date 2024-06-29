@@ -8,6 +8,8 @@ I will open source gradually from the basic application project, in each reposit
 
 ![aiHelpmate's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiHelpmate&show_icons=true&theme=radical)
 
+![Static Badge](https://img.shields.io/badge/Wechat-LXD_aiHelpmate709-green?style=social&logo=wechat&logoColor=green)
+
 <!--
 **aiHelpmate/aiHelpmate** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
