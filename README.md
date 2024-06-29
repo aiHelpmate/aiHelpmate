@@ -2,12 +2,13 @@
 I am interning at [JingLianWen Technology](https://www.jinglianwen.com/), researching in AI crime and anti-crime, including face synthesis, sentiment recognition.
 I will open source gradually from the basic application project, in each warehouse you can find the complete process to do this project. My primary action includes the following:
 
++ 📄 I'm currently studying [environmental criminology](https://academic.oup.com/edited-volume/34642)
++ 👯 I'm looking forward to starting my own crime research team, so if you'd like to give it a try, please let me know
++ 📫 How to reach me: 2315209261@qq.com; ryanphillippe709@gmail.com
 
-
++ 🌿: My MBTI is ISTJ, I enjoy meditation, bass, and 
 
 ![aiHelpmate's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiHelpmate&show_icons=true&theme=radical)
-
-<img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username={aiHelpmate}&theme=transparent&include_all_commits=true&show_icons=true&hide_border=true" />
 
 <!--
 **aiHelpmate/aiHelpmate** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
