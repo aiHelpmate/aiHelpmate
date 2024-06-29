@@ -1,9 +1,8 @@
 ## Hi there 👋, I am aiHelpmate, A researcher in the combination of artificial intelligence and criminal psychology
 I am interning at [JingLianWen Technology](https://www.jinglianwen.com/), researching in AI crime and anti-crime, including face synthesis, sentiment recognition.
-
 I will open source gradually from the basic application project, in each warehouse you can find the complete process to do this project. My primary action includes the following:
 
-
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiHelpmate)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **aiHelpmate/aiHelpmate** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
