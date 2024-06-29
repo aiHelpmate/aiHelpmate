@@ -5,8 +5,6 @@ I will open source gradually from the basic application project, in each warehou
 
 
 
-![aiHelpmate's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiHelpmate&show_icons=true)
-
 ![aiHelpmate's GitHub stats](https://github-readme-stats.vercel.app/api?username=aiHelpmate&show_icons=true&theme=radical)
 
 
