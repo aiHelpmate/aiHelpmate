@@ -1,6 +1,6 @@
 ## Hi there 👋, I am aiHelpmate, A researcher in the combination of artificial intelligence and criminal psychology
 I am interning at [JingLianWen Technology](https://www.jinglianwen.com/), researching in AI crime and anti-crime, including face synthesis, sentiment recognition.
-I will open source gradually from the basic application project, in each warehouse you can find the complete process to do this project. My primary action includes the following:
+I will open source gradually from the basic application project, in each repository you can find the complete process to do this project. My primary action includes the following:
 
 + 📄 I'm currently studying [environmental criminology](https://academic.oup.com/edited-volume/34642)
 + 👯 I'm looking forward to starting my own crime research team, so if you'd like to give it a try, please let me know
