@@ -1,10 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This code finds the solution to a system of simultaneous linear equation
-% using Gauss_Seidel Method.
-% Written By: Mohammad Y. Saadeh, on 06/14/2010, University of Nevada Las
-% Vegas
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%A%%%%%%%%%%%%%%%%%%%%%%%%%
-
 clear;clc
 format compact
 %%  Read or Input any square Matrix
