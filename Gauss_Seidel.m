@@ -1,45 +1,42 @@
-clear;clc
-format compact
-%%  Read or Input any square Matrix
-A = [-6 2 1 2 1;
-     3 8 -4 1 0;
-     -1 1 4 10 1;
-     3 -4 1 9 2;
-     2 0 1 3 10];% coefficients matrix
-C = [3;4;-2 ;12;1];% constants vector
-n = length(C);
-X = zeros(n,1);
-Error_eval = ones(n,1);
+%% Gauss Seidel Method
+%% Solution of x in Ax=b using Gauss Seidel Method
+% * _*Initailize 'A' 'b' & intial guess 'x'*_
+%%
+A=[5 -2 3 0;-3 9 1 -2;2 -1 -7 1; 4 3 -5 7]
+b=[-1 2 3 0.5]'
+x=[0 0 0 0]'
+n=size(x,1);
+normVal=Inf; 
+%% 
+% * _*Tolerence for method*_
 
-%% Check if the matrix A is diagonally dominant
-for i = 1:n
-    j = 1:n;
-    j(i) = [];
-    B = abs(A(i,j));
-    Check(i) = abs(A(i,i)) - sum(B); % Is the diagonal value greater than the remaining row values combined?
-    if Check(i) < 0
-        fprintf('The matrix is not strictly diagonally dominant at row %2i\n\n',i)
+tol=1e-5; itr=0;
+
+%% Algorithm: Gauss Seidel Method
+%%
+while normVal>tol
+    x_old=x;
+    
+    for i=1:n
+        
+        sigma=0;
+        
+        for j=1:i-1
+                sigma=sigma+A(i,j)*x(j);
+        end
+        
+        for j=i+1:n
+                sigma=sigma+A(i,j)*x_old(j);
+        end
+        
+        x(i)=(1/A(i,i))*(b(i)-sigma);
     end
+    
+    itr=itr+1;
+    normVal=norm(x_old-x);
 end
 
-%% Start the Iterative method
+%%
+fprintf('Solution of the system is : \n%f\n%f\n%f\n%f in %d iterations',x,itr);
 
-iteration = 0;
-while max(Error_eval) > 0.001
-    iteration = iteration + 1;
-    Z = X;  % save current values to calculate error later
-    for i = 1:n
-        j = 1:n; % define an array of the coefficients' elements
-        j(i) = [];  % eliminate the unknow's coefficient from the remaining coefficients
-        Xtemp = X;  % copy the unknows to a new variable
-        Xtemp(i) = [];  % eliminate the unknown under question from the set of values
-        X(i) = (C(i) - sum(A(i,j) * Xtemp)) / A(i,i);
-    end
-    Xsolution(:,iteration) = X;
-    Error_eval = sqrt((X - Z).^2);
-end
-
-%% Display Results
-GaussSeidelTable = [1:iteration;Xsolution]'
-MaTrIx = [A X C]
 
