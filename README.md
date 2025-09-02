@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+I am a third-year undergraduate student currently enrolled on a bachelor's degree at the University of Liverpool.
 <!--
 **aiHelpmate/aiHelpmate** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
