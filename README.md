@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I am a third-year undergraduate student studying Data Science at the [University of Liverpool](https://www.liverpool.ac.uk). I am passionate about Agentic RL and am striving to conduct more in-depth exploration in this field.
+I am a forth-year undergraduate student studying Data Science at the [University of Liverpool](https://www.liverpool.ac.uk). I am passionate about Agentic RL and am striving to conduct more in-depth exploration in this field.
 
 
 <!--
