@@ -1,4 +1,4 @@
-# Hey 👋, I'm aiHelpmate
+# Hey there 👋
 
 <!-- <img align="right" src="https://github.com/aiHelpmate/aiHelpmate/imgs/avatar.png?raw=true" width="260" alt="avatar" /> -->
 
