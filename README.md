@@ -41,23 +41,3 @@ Here are some ideas to get you started:
 
 <!-- 分隔装饰线 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### 📚 The 11-Dimension Knowledge Graph
-
-I maintain a structured [Study Notes](https://github.com/aiHelpmate/study-notes) repository that maps the entire LLM lifecycle. Here is the compass:
-
-```text
-🧠 Foundation   ⚙️ Pretrain Data   🚀 Dist. Training   🎯 SFT   🧩 PEFT
-⚖️ RL Alignment   ⚡ Inference   🔍 RAG   📊 Eval   🤖 Agentic   🎙️ Interview
-```
-
-| # | Module | Core Focus |
-| :---: | :--- | :--- |
-| `01` | **Foundation Models** | Transformer internals, MoE, Mamba, RoPE |
-| `03` | **Distributed Training** | DeepSpeed ZeRO, 3D parallelism, Communication |
-| `06` | **RL Alignment** | PPO, DPO, GRPO, Reward Modeling, KL control |
-| `08` | **RAG & Vector Search** | HNSW, PQ, Rerank, HyDE, Graph-RAG |
-| `10` | **Agentic Systems** | Hermes Tool Calling, ReAct, Memory, AutoGen |
-
-<!-- 分隔装饰线 -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
