@@ -28,3 +28,36 @@ Here are some ideas to get you started:
 
 <!-- 分隔装饰线 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+### 🛠️ The Full-Stack Arsenal
+
+| **Category** | **Tech Stack & Algorithms** |
+| :--- | :--- |
+| **Foundation & Data** | ![Transformers](https://img.shields.io/badge/Transformers-000000?style=flat&logo=huggingface&logoColor=yellow) ![Tokenizers](https://img.shields.io/badge/Tokenizers-FF6F00?style=flat&logo=python&logoColor=white) |
+| **Distributed Training** | ![DeepSpeed](https://img.shields.io/badge/DeepSpeed-003D5C?style=flat&logo=microsoft&logoColor=white) ![FSDP](https://img.shields.io/badge/FSDP-764ABC?style=flat&logo=pytorch&logoColor=white) ![Megatron](https://img.shields.io/badge/Megatron_LM-EE4C2C?style=flat&logo=nvidia&logoColor=white) |
+| **Alignment & RL** | ![PPO](https://img.shields.io/badge/PPO-FF6B6B?style=flat&logo=ai&logoColor=white) ![DPO](https://img.shields.io/badge/DPO-4ECDC4?style=flat&logo=ai&logoColor=white) ![GRPO](https://img.shields.io/badge/GRPO-45B7D1?style=flat&logo=ai&logoColor=white) |
+| **Inference & RAG** | ![vLLM](https://img.shields.io/badge/vLLM-00B4D8?style=flat&logo=python&logoColor=white) ![Vector Search](https://img.shields.io/badge/HNSW%2FPQ-0077B6?style=flat&logo=qdrant&logoColor=white) |
+| **Agentic & Production** | ![Hermes](https://img.shields.io/badge/Hermes_Agent-6C3B9A?style=flat&logo=telegram&logoColor=white) ![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Harness](https://img.shields.io/badge/Harness_CD-FFB81C?style=flat&logo=harness&logoColor=black) |
+
+<!-- 分隔装饰线 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+### 📚 The 11-Dimension Knowledge Graph
+
+I maintain a structured [Study Notes](https://github.com/aiHelpmate/study-notes) repository that maps the entire LLM lifecycle. Here is the compass:
+
+```text
+🧠 Foundation   ⚙️ Pretrain Data   🚀 Dist. Training   🎯 SFT   🧩 PEFT
+⚖️ RL Alignment   ⚡ Inference   🔍 RAG   📊 Eval   🤖 Agentic   🎙️ Interview
+```
+
+| # | Module | Core Focus |
+| :---: | :--- | :--- |
+| `01` | **Foundation Models** | Transformer internals, MoE, Mamba, RoPE |
+| `03` | **Distributed Training** | DeepSpeed ZeRO, 3D parallelism, Communication |
+| `06` | **RL Alignment** | PPO, DPO, GRPO, Reward Modeling, KL control |
+| `08` | **RAG & Vector Search** | HNSW, PQ, Rerank, HyDE, Graph-RAG |
+| `10` | **Agentic Systems** | Hermes Tool Calling, ReAct, Memory, AutoGen |
+
+<!-- 分隔装饰线 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
