@@ -1,81 +1,53 @@
-# ✨ Hi there, I'm aiHelpmate
+<!--
+**aiHelpmate/aiHelpmate** is a ✨ _special_ ✨ repository.
+-->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=700&lines=From+Offline+Alignment+to+Online+Adaptation;Reinforcement+Learning+%2B+Agentic+AI;Data+Science+%40+University+of+Liverpool" alt="Typing SVG" />
-</div>
-
-<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=500&lines=Offline+Alignment+%E2%86%92+Online+Adaptation;Reinforcement+Learning+%2B+Agentic+AI" alt="Typing SVG" />
+  <br>
   <img src="https://komarev.com/ghpvc/?username=aiHelpmate&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
-
----
-
-### 🧠 About My Research Philosophy
-
-> I am a senior graduate in Data Science from the [University of Liverpool](https://www.liverpool.ac.uk). I am passionate about **Agentic RL** and am striving to conduct more in-depth exploration in this field.
-
-My current focus lies in bridging the gap between **offline alignment** (RLHF, DPO) and **online adaptation** (PPO, GRPO) for autonomous agents. I believe the future of AI lies in systems that can learn continuously from both human feedback and environmental interactions.
-
----
-
-### 🛠️ The Full-Stack Arsenal
-
-| **Category** | **Tech Stack & Algorithms** |
-| :--- | :--- |
-| **Foundation & Data** | ![Transformers](https://img.shields.io/badge/Transformers-000000?style=flat&logo=huggingface&logoColor=yellow) ![Tokenizers](https://img.shields.io/badge/Tokenizers-FF6F00?style=flat&logo=python&logoColor=white) |
-| **Distributed Training** | ![DeepSpeed](https://img.shields.io/badge/DeepSpeed-003D5C?style=flat&logo=microsoft&logoColor=white) ![FSDP](https://img.shields.io/badge/FSDP-764ABC?style=flat&logo=pytorch&logoColor=white) ![Megatron](https://img.shields.io/badge/Megatron_LM-EE4C2C?style=flat&logo=nvidia&logoColor=white) |
-| **Alignment & RL** | ![PPO](https://img.shields.io/badge/PPO-FF6B6B?style=flat&logo=ai&logoColor=white) ![DPO](https://img.shields.io/badge/DPO-4ECDC4?style=flat&logo=ai&logoColor=white) ![GRPO](https://img.shields.io/badge/GRPO-45B7D1?style=flat&logo=ai&logoColor=white) |
-| **Inference & RAG** | ![vLLM](https://img.shields.io/badge/vLLM-00B4D8?style=flat&logo=python&logoColor=white) ![Vector Search](https://img.shields.io/badge/HNSW%2FPQ-0077B6?style=flat&logo=qdrant&logoColor=white) |
-| **Agentic & Production** | ![Hermes](https://img.shields.io/badge/Hermes_Agent-6C3B9A?style=flat&logo=telegram&logoColor=white) ![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Harness](https://img.shields.io/badge/Harness_CD-FFB81C?style=flat&logo=harness&logoColor=black) |
-
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-  <a href="https://github.com/aiHelpmate">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aiHelpmate&show_icons=true&theme=radical&include_all_commits=true&count_private=true" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aiHelpmate&layout=compact&theme=radical&langs_count=8" />
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=aiHelpmate&theme=radical" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aiHelpmate&theme=radical&bg_color=141321&color=a9a9d6&line=7b68ee&point=58A6FF" alt="GitHub Activity Graph" />
 </div>
 
 ---
 
-### 🏆 GitHub Trophies
+### 🧠 The Static Alignment Trap
+
+Most alignment work (RLHF, DPO) treats human preferences as a **fixed target** to be imitated once. This works in static benchmarks, but fails in the wild because:
+
+- Preferences are **context-dependent** and drift over time.
+- Reward models are **brittle** — they over-optimize on surface-level patterns.
+- Agents cannot **unlearn** outdated safety constraints.
+
+I work on **bridging offline pretraining with online interaction** — not as a sequential pipeline, but as a **continuous dialogue** between prior beliefs and emerging evidence. This means rethinking:
+
+- **Uncertainty-aware RL** — treating reward predictions as distributions, not point estimates.
+- **Meta-prior learning** — initializing policies that adapt to new rewards in < 100 online steps.
+- **Safe exploration** — using offline data as a **constraint manifold**, not a cage.
+
+My goal is **lifelong alignment**: agents that grow alongside human values, without forgetting why they were trusted in the first place.
+
+---
+
+### 🔧 Tools I Use
+
+`Transformers` · `PyTorch` · `DeepSpeed` · `vLLM` · `PPO` · `DPO` · `GRPO` · `Kubernetes`
+
+---
+
+### 🚧 What I'm Exploring Now
+
+- Adaptive advantage estimation with epistemic reward uncertainty (PPO + Bayesian ensembles)
+- Meta-learning initialization for DPO from multi-task preference data
+- Constraint-satisfying group-relative policy updates (GRPO with safety projections)
+
+---
+
+### 📬 Reach Me
+
+[GitHub Issues](https://github.com/aiHelpmate/aiHelpmate/issues) · [Email](mailto:aihelpmate@example.com)
+
+---
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aiHelpmate&theme=radical&no-frame=true&row=2&column=4" alt="GitHub Trophies" />
-</div>
-
----
-
-### 🌟 3D Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aiHelpmate/aiHelpmate/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aiHelpmate/aiHelpmate/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/aiHelpmate/aiHelpmate/output/github-contribution-grid-snake.svg">
-</picture>
-
----
-
-### 📫 Let's Connect
-
-- 💬 Ask me about **RLHF, Agentic Workflows, and Distributed Training**
-- 📫 How to reach me: [GitHub Issues](https://github.com/aiHelpmate/aiHelpmate/issues) or [Email](mailto:aiHelpmate@example.com) (replace with your real address)
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I once trained a 7B model on a single GPU using ZeRO-3 — it took a week, but it worked!
-
----
-
-<div align="center">
-  <i>“The future is already here — it's just not evenly distributed.” — William Gibson</i>
+  <i>“The measure of intelligence is the ability to change.” — Einstein</i>
 </div>
