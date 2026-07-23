@@ -1,53 +1,43 @@
 <!--
-**aiHelpmate/aiHelpmate** is a ✨ _special_ ✨ repository.
+**aiHelpmate/aiHelpmate** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
 -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=500&lines=Offline+Alignment+%E2%86%92+Online+Adaptation;Reinforcement+Learning+%2B+Agentic+AI" alt="Typing SVG" />
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=aiHelpmate&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</div>
-
----
-
-### 🧠 The Static Alignment Trap
-
-Most alignment work (RLHF, DPO) treats human preferences as a **fixed target** to be imitated once. This works in static benchmarks, but fails in the wild because:
-
-- Preferences are **context-dependent** and drift over time.
-- Reward models are **brittle** — they over-optimize on surface-level patterns.
-- Agents cannot **unlearn** outdated safety constraints.
-
-I work on **bridging offline pretraining with online interaction** — not as a sequential pipeline, but as a **continuous dialogue** between prior beliefs and emerging evidence. This means rethinking:
-
-- **Uncertainty-aware RL** — treating reward predictions as distributions, not point estimates.
-- **Meta-prior learning** — initializing policies that adapt to new rewards in < 100 online steps.
-- **Safe exploration** — using offline data as a **constraint manifold**, not a cage.
-
-My goal is **lifelong alignment**: agents that grow alongside human values, without forgetting why they were trusted in the first place.
-
----
-
-### 🔧 Tools I Use
-
-`Transformers` · `PyTorch` · `DeepSpeed` · `vLLM` · `PPO` · `DPO` · `GRPO` · `Kubernetes`
-
----
-
-### 🚧 What I'm Exploring Now
-
-- Adaptive advantage estimation with epistemic reward uncertainty (PPO + Bayesian ensembles)
-- Meta-learning initialization for DPO from multi-task preference data
-- Constraint-satisfying group-relative policy updates (GRPO with safety projections)
-
----
-
-### 📬 Reach Me
-
-[GitHub Issues](https://github.com/aiHelpmate/aiHelpmate/issues) · [Email](mailto:aihelpmate@example.com)
-
----
+## Hi there 👋
 
 <div align="center">
-  <i>“The measure of intelligence is the ability to change.” — Einstein</i>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=600&lines=From+Offline+Alignment+to+Online+Adaptation" alt="Typing SVG" />
 </div>
+
+<!-- 分隔装饰线 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+### 🧠 About My Research Philosophy
+
+> I am a senior graduate in Data Science from the [University of Liverpool](https://www.liverpool.ac.uk). I am passionate about **Agentic RL** and am striving to conduct more in-depth exploration in this field.
+
+<!-- 分隔装饰线 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+### 🛠️ The Full-Stack Arsenal
+
+| **Category** | **Tech Stack & Algorithms** |
+| :--- | :--- |
+| **Foundation & Data** | ![Transformers](https://img.shields.io/badge/Transformers-000000?style=flat&logo=huggingface&logoColor=yellow) ![Tokenizers](https://img.shields.io/badge/Tokenizers-FF6F00?style=flat&logo=python&logoColor=white) |
+| **Distributed Training** | ![DeepSpeed](https://img.shields.io/badge/DeepSpeed-003D5C?style=flat&logo=microsoft&logoColor=white) ![FSDP](https://img.shields.io/badge/FSDP-764ABC?style=flat&logo=pytorch&logoColor=white) ![Megatron](https://img.shields.io/badge/Megatron_LM-EE4C2C?style=flat&logo=nvidia&logoColor=white) |
+| **Alignment & RL** | ![PPO](https://img.shields.io/badge/PPO-FF6B6B?style=flat&logo=ai&logoColor=white) ![DPO](https://img.shields.io/badge/DPO-4ECDC4?style=flat&logo=ai&logoColor=white) ![GRPO](https://img.shields.io/badge/GRPO-45B7D1?style=flat&logo=ai&logoColor=white) |
+| **Inference & RAG** | ![vLLM](https://img.shields.io/badge/vLLM-00B4D8?style=flat&logo=python&logoColor=white) ![Vector Search](https://img.shields.io/badge/HNSW%2FPQ-0077B6?style=flat&logo=qdrant&logoColor=white) |
+| **Agentic & Production** | ![Hermes](https://img.shields.io/badge/Hermes_Agent-6C3B9A?style=flat&logo=telegram&logoColor=white) ![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Harness](https://img.shields.io/badge/Harness_CD-FFB81C?style=flat&logo=harness&logoColor=black) |
+
+<!-- 分隔装饰线 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
